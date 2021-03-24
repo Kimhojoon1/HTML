@@ -95,7 +95,7 @@ public class makeKeyword {
             transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
 
             DOMSource src = new DOMSource(document);
-            StreamResult result = new StreamResult(new FileOutputStream(new File("C:\\Users\\html\\index.xml")));
+            StreamResult result = new StreamResult(new FileOutputStream(new File("C:\\Users\\user\\IdeaProjects\\SimpleIR\\data\\index.xml")));
 
             transformer.transform(src, result);
 
